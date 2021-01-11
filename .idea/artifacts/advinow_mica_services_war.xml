@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="advinow-mica-services:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>advinow-mica-services</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="2070Services.war">
+      <element id="artifact" artifact-name="advinow-mica-services:war exploded" />
+    </root>
+  </artifact>
+</component>

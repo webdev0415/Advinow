@@ -1,0 +1,89 @@
+image: python:3.7
+stages:
+- test
+- build
+- deploy
+
+variables:
+  CONTAINER_REGISTRY: registry.gitlab.com/advinow/javaapis/mica-neo4j-java-services
+  K8_SERVICE_NAME: mica-neo4j-java-services
+
+build_kubernetes:
+  stage: build
+  image: docker:19.03.1
+  tags:
+    - SHELL
+  only:
+    - development
+    - tags
+    - master
+  script:
+    - vault agent -config=/home/gitlab-runner/vault-agent.hcl 2>&1 >/dev/null
+    - TOKEN=$(cat /home/gitlab-runner/vault-token-via-agent)
+    - vault login $TOKEN 2>&1 >/dev/null
+    - export CI_REGISTRY=$(vault kv get -field=CI_REGISTRY secret/BUILD)
+    - export CI_REGISTRY_PASSWORD=$(vault kv get -field=CI_REGISTRY_PASSWORD secret/BUILD)
+    - export CI_REGISTRY_USER=$(vault kv get -field=CI_REGISTRY_USER secret/BUILD)
+    - ~/maven/bin/mvn clean package -DskipTests
+    - vault kv get -field=GITLAB_ID_RSA secret/BUILD >  $CI_PROJECT_DIR/id_rsa
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+    - docker build -f docker/Dockerfile -t $CONTAINER_REGISTRY:$CI_COMMIT_REF_NAME-$CI_COMMIT_SHORT_SHA .
+    - docker tag $CONTAINER_REGISTRY:$CI_COMMIT_REF_NAME-$CI_COMMIT_SHORT_SHA $CONTAINER_REGISTRY:$CI_COMMIT_REF_NAME-kube_latest
+    - docker push $CONTAINER_REGISTRY:$CI_COMMIT_REF_NAME-$CI_COMMIT_SHORT_SHA
+    - docker push $CONTAINER_REGISTRY:$CI_COMMIT_REF_NAME-kube_latest
+
+deploy_kubernetes_development:
+  stage: deploy
+  environment: development
+  image: docker:19.03.1
+  tags:
+    - SHELL
+  only:
+    - development
+  script:
+    - export KUBE_ENVIRONMENT=dev
+    - export ENVIRONMENT=development
+    - kubectl config use-context k8advinow-$KUBE_ENVIRONMENT.k8s.local
+    - helm upgrade --set image.tag=$CI_COMMIT_REF_NAME-$CI_COMMIT_SHORT_SHA --set service.environment=$ENVIRONMENT $K8_SERVICE_NAME $K8_SERVICE_NAME/ --debug
+    - helm upgrade --set image.tag=$CI_COMMIT_REF_NAME-$CI_COMMIT_SHORT_SHA --set service.environment=$ENVIRONMENT $K8_SERVICE_NAME-replica $K8_SERVICE_NAME-replica/ --debug
+    - sleep 1
+    - /usr/local/bin/kube_deploy_status $K8_SERVICE_NAME
+    - kubectl config use-context k8advinow-$KUBE_ENVIRONMENT.k8s.local
+    - kubectl rollout restart deployment $K8_SERVICE_NAME $K8_SERVICE_NAME-replica
+
+deploy_kubernetes_pilot:
+  stage: deploy
+  environment: pilot
+  image: docker:19.03.1
+  tags:
+    - SHELL
+  only:
+    - master
+  script:
+    - export KUBE_ENVIRONMENT=pilot
+    - export ENVIRONMENT=pilot
+    - kubectl config use-context k8advinow-$KUBE_ENVIRONMENT.k8s.local
+    - helm upgrade --set image.tag=$CI_COMMIT_REF_NAME-$CI_COMMIT_SHORT_SHA --set service.environment=$ENVIRONMENT $K8_SERVICE_NAME $K8_SERVICE_NAME/ --debug
+    - sleep 1
+    - /usr/local/bin/kube_deploy_status $K8_SERVICE_NAME
+    - kubectl config use-context k8advinow-$KUBE_ENVIRONMENT.k8s.local
+    - kubectl rollout restart deployment $K8_SERVICE_NAME
+
+deploy_kubernetes_prod:
+  stage: deploy
+  environment: production
+  image: docker:19.03.1
+  tags:
+    - SHELL
+  only:
+    - tags
+  when: manual
+  script:
+    - export KUBE_ENVIRONMENT=production
+    - export ENVIRONMENT=production
+    - kubectl config use-context k8advinow-$KUBE_ENVIRONMENT.k8s.local
+    - helm upgrade --set image.tag=$CI_COMMIT_REF_NAME-$CI_COMMIT_SHORT_SHA --set service.environment=$ENVIRONMENT $K8_SERVICE_NAME $K8_SERVICE_NAME/ --debug
+    - sleep 1
+    - /usr/local/bin/kube_deploy_status $K8_SERVICE_NAME
+    - kubectl config use-context k8advinow-$KUBE_ENVIRONMENT.k8s.local
+    - kubectl rollout restart deployment $K8_SERVICE_NAME

@@ -1,0 +1,24 @@
+[2021-01-10_03:52:03.188][INFO][StartupInfoLogger.java:55]- Starting MICAApplication on DESKTOP-66HJ7B8 with PID 8336 (F:\ongoing\advinow\mica-neo4j-java-services\target\classes started by Loyalsun in F:\ongoing\advinow\mica-neo4j-java-services)
+[2021-01-10_03:52:03.222][INFO][SpringApplication.java:651]- No active profile set, falling back to default profiles: default
+[2021-01-10_03:52:06.990][INFO][RepositoryConfigurationDelegate.java:127]- Bootstrapping Spring Data Neo4j repositories in DEFAULT mode.
+[2021-01-10_03:52:07.580][INFO][RepositoryConfigurationDelegate.java:187]- Finished Spring Data repository scanning in 567ms. Found 42 Neo4j repository interfaces.
+[2021-01-10_03:52:11.987][INFO][TomcatWebServer.java:108]- Tomcat initialized with port(s): 8080 (http)
+[2021-01-10_03:52:12.453][INFO][ServletWebServerApplicationContext.java:285]- Root WebApplicationContext: initialization completed in 8487 ms
+[2021-01-10_03:52:15.993][INFO][DomainInfo.java:198]- Starting Post-processing phase
+[2021-01-10_03:52:15.994][INFO][DomainInfo.java:152]- Building byLabel lookup maps
+[2021-01-10_03:52:15.995][INFO][DomainInfo.java:179]- Building interface class map for 301 classes
+[2021-01-10_03:52:16.061][INFO][DomainInfo.java:255]- Post-processing complete
+[2021-01-10_03:52:16.549][INFO][Neo4jMappingContext.java:193]- No class information found in OGM meta-data for class java.util.Hashtable so treating as simple type for SD Commons
+[2021-01-10_03:52:16.750][INFO][Neo4jMappingContext.java:92]- Neo4jMappingContext initialisation completed
+[2021-01-10_03:52:22.462][INFO][EndpointLinksResolver.java:58]- Exposing 2 endpoint(s) beneath base path '/actuator'
+[2021-01-10_03:52:24.942][INFO][TomcatWebServer.java:220]- Tomcat started on port(s): 8080 (http) with context path ''
+[2021-01-10_03:52:27.106][INFO][StartupInfoLogger.java:61]- Started MICAApplication in 25.201 seconds (JVM running for 30.867)
+[2021-01-10_03:52:38.431][INFO][FrameworkServlet.java:525]- Initializing Servlet 'dispatcherServlet'
+[2021-01-10_03:52:38.528][INFO][FrameworkServlet.java:547]- Completed initialization in 96 ms
+[2021-01-10_03:52:41.075][WARN][DispatcherServlet.java:1251]- No mapping for GET /
+[2021-01-10_03:52:41.259][WARN][DispatcherServlet.java:1251]- No mapping for GET /csrf
+[2021-01-10_22:44:25.858][WARN][DispatcherServlet.java:1251]- No mapping for GET /
+[2021-01-10_22:44:27.022][WARN][DispatcherServlet.java:1251]- No mapping for GET /csrf
+[2021-01-10_22:45:52.906][WARN][DispatcherServlet.java:1251]- No mapping for GET /favicon.ico
+[2021-01-10_23:51:07.997][WARN][DispatcherServlet.java:1251]- No mapping for GET /
+[2021-01-10_23:51:08.935][WARN][DispatcherServlet.java:1251]- No mapping for GET /csrf

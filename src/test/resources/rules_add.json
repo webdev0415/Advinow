@@ -1,0 +1,15 @@
+{
+  "ruleID": 12,
+  "s_symptom_id": "SYMPT0004242",
+  "s_trigger": "NO",
+  "s_list_items": [
+    "DS2249"
+  ],
+  "s_rule": "All",
+  "t_symptom_id": "SYMPT0000228",
+  "t_list_items": [
+    "DS2249"
+  ],
+  "relation_s_to_t": "Positive",
+  "direction": "1 Way"
+}

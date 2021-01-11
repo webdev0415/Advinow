@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+ 
+	<appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+		<layout class="ch.qos.logback.classic.PatternLayout">
+			<Pattern>[%d{yyyy-MM-dd_HH:mm:ss.SSS}][%level][%F:%L]- %msg%n</Pattern>
+		</layout>
+	</appender>
+  
+  <appender name="FILE_OUT"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+     <!-- 	  <file>./logs/mica.log</file>  -->
+     <param name="file" value="${catalina.home}/logs/2070-rest/2070-rest.log" />
+		<!-- <append>false</append> -->
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<!-- rollover daily -->
+			<fileNamePattern>${catalina.home}/logs/2070-rest/2070-rest.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+			<timeBasedFileNamingAndTriggeringPolicy
+				class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<!-- or whenever the file size reaches 100MB -->
+				<maxFileSize>10MB</maxFileSize>
+			</timeBasedFileNamingAndTriggeringPolicy>
+			<maxHistory>5</maxHistory>
+		</rollingPolicy>
+		<encoder>
+			<pattern>[%d{yyyy-MM-dd_HH:mm:ss.SSS}][%level][%F:%L]- %msg%n</pattern>
+		</encoder>
+	</appender>
+	<logger name="com.advinow.mica" level="ERROR"  additivity="false">
+		<level value="INFO" />
+		<!-- <appender-ref ref="CONSOLE" /> -->
+		<appender-ref ref="FILE_OUT" />
+	</logger>
+
+	<logger name="org.springframework" level="ERROR"  additivity="false">
+		<level value="INFO" />
+		<appender-ref ref="FILE_OUT" />
+	</logger>
+
+	<logger name="org.neo4j.ogm"  level="ERROR"  additivity="false">
+		<level value="INFO" />
+		<appender-ref ref="FILE_OUT" />
+	</logger>
+
+	<root>
+		<level value="ERROR" />
+	<!-- 	<appender-ref ref="CONSOLE" /> -->
+		<appender-ref ref="FILE_OUT" />
+	</root>
+  
+  </configuration>

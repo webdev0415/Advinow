@@ -1,0 +1,118 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="advinow-mica-services:war exploded">
+    <output-path>$PROJECT_DIR$/target/2070Services</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>advinow-mica-services</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="advinow-mica-services" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-data-neo4j:2.3.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter:2.3.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot:2.3.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.3.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-logging:2.3.5.RELEASE" />
+          <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.2.3" />
+          <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.2.3" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-to-slf4j:2.13.3" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.13.3" />
+          <element id="library" level="project" name="Maven: org.slf4j:jul-to-slf4j:1.7.30" />
+          <element id="library" level="project" name="Maven: jakarta.annotation:jakarta.annotation-api:1.3.5" />
+          <element id="library" level="project" name="Maven: org.yaml:snakeyaml:1.26" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-neo4j:5.3.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.2.10.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.2.10.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.2.10.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-commons:2.3.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.neo4j:neo4j-ogm-core:3.2.17" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.10" />
+          <element id="library" level="project" name="Maven: io.github.classgraph:classgraph:4.8.86" />
+          <element id="library" level="project" name="Maven: org.neo4j:neo4j-ogm-api:3.2.17" />
+          <element id="library" level="project" name="Maven: org.neo4j:neo4j-ogm-bolt-driver:3.2.17" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-web:2.3.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-json:2.3.5.RELEASE" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.11.3" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.11.3" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.11.3" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.11.3" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.11.3" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-tomcat:2.3.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.39" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-websocket:9.0.39" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.2.10.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.2.10.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.2.10.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-validation:2.3.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.glassfish:jakarta.el:3.0.3" />
+          <element id="library" level="project" name="Maven: org.hibernate.validator:hibernate-validator:6.1.6.Final" />
+          <element id="library" level="project" name="Maven: jakarta.validation:jakarta.validation-api:2.0.2" />
+          <element id="library" level="project" name="Maven: org.jboss.logging:jboss-logging:3.4.1.Final" />
+          <element id="library" level="project" name="Maven: net.bytebuddy:byte-buddy:1.10.17" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.2.10.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.2.10.RELEASE" />
+          <element id="library" level="project" name="Maven: org.neo4j.driver:neo4j-java-driver:4.2.0" />
+          <element id="library" level="project" name="Maven: org.reactivestreams:reactive-streams:1.0.3" />
+          <element id="library" level="project" name="Maven: io.github.resilience4j:resilience4j-spring-boot2:1.6.1" />
+          <element id="library" level="project" name="Maven: io.vavr:vavr:0.10.2" />
+          <element id="library" level="project" name="Maven: io.vavr:vavr-match:0.10.2" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.30" />
+          <element id="library" level="project" name="Maven: io.github.resilience4j:resilience4j-spring:1.6.1" />
+          <element id="library" level="project" name="Maven: io.github.resilience4j:resilience4j-annotations:1.6.1" />
+          <element id="library" level="project" name="Maven: io.github.resilience4j:resilience4j-consumer:1.6.1" />
+          <element id="library" level="project" name="Maven: io.github.resilience4j:resilience4j-core:1.6.1" />
+          <element id="library" level="project" name="Maven: io.github.resilience4j:resilience4j-circularbuffer:1.6.1" />
+          <element id="library" level="project" name="Maven: io.github.resilience4j:resilience4j-framework-common:1.6.1" />
+          <element id="library" level="project" name="Maven: io.github.resilience4j:resilience4j-circuitbreaker:1.6.1" />
+          <element id="library" level="project" name="Maven: io.github.resilience4j:resilience4j-ratelimiter:1.6.1" />
+          <element id="library" level="project" name="Maven: io.github.resilience4j:resilience4j-retry:1.6.1" />
+          <element id="library" level="project" name="Maven: io.github.resilience4j:resilience4j-bulkhead:1.6.1" />
+          <element id="library" level="project" name="Maven: io.github.resilience4j:resilience4j-timelimiter:1.6.1" />
+          <element id="library" level="project" name="Maven: io.github.resilience4j:resilience4j-micrometer:1.6.1" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-actuator:2.3.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-actuator-autoconfigure:2.3.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-actuator:2.3.5.RELEASE" />
+          <element id="library" level="project" name="Maven: io.micrometer:micrometer-core:1.5.6" />
+          <element id="library" level="project" name="Maven: org.hdrhistogram:HdrHistogram:2.1.12" />
+          <element id="library" level="project" name="Maven: org.latencyutils:LatencyUtils:2.0.3" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-aop:2.3.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.2.10.RELEASE" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.9.6" />
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:4.0.1" />
+          <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.18.16" />
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.8.6" />
+          <element id="library" level="project" name="Maven: org.codehaus.jettison:jettison:1.4.1" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.13" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.13" />
+          <element id="library" level="project" name="Maven: net.sf.opencsv:opencsv:2.3" />
+          <element id="library" level="project" name="Maven: io.springfox:springfox-swagger2:2.9.2" />
+          <element id="library" level="project" name="Maven: io.swagger:swagger-annotations:1.5.20" />
+          <element id="library" level="project" name="Maven: io.swagger:swagger-models:1.5.20" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.11.3" />
+          <element id="library" level="project" name="Maven: io.springfox:springfox-spi:2.9.2" />
+          <element id="library" level="project" name="Maven: io.springfox:springfox-core:2.9.2" />
+          <element id="library" level="project" name="Maven: io.springfox:springfox-schema:2.9.2" />
+          <element id="library" level="project" name="Maven: io.springfox:springfox-swagger-common:2.9.2" />
+          <element id="library" level="project" name="Maven: io.springfox:springfox-spring-web:2.9.2" />
+          <element id="library" level="project" name="Maven: com.google.guava:guava:20.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml:classmate:1.5.1" />
+          <element id="library" level="project" name="Maven: org.springframework.plugin:spring-plugin-core:1.2.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.plugin:spring-plugin-metadata:1.2.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.mapstruct:mapstruct:1.2.0.Final" />
+          <element id="library" level="project" name="Maven: io.springfox:springfox-swagger-ui:2.9.2" />
+          <element id="library" level="project" name="Maven: io.springfox:springfox-bean-validators:2.9.2" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/2070Services/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="advinow-mica-services/web/Web" />
+    </root>
+  </artifact>
+</component>

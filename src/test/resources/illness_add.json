@@ -1,0 +1,111 @@
+{
+  "userData": [
+    {
+      "name": "Chalazion right lower eyelid",
+      "state": "PENDING",
+      "idIcd10Code": "H00.12",
+      "version": 2,
+      "groupsComplete": [
+        "general"
+      ],
+      "symptomGroups": [
+        {
+          "groupID": "general",
+          "categories": [
+            {
+              "categoryID": "SYMPTCG01",
+              "symptoms": [
+                {
+                  "symptomID": "SYMPT0000912",
+                  "rows": [
+                    {
+                      "bias": true,
+                      "medNecessary": false,
+                      "minDiagCriteria": false,
+                      "must": false,
+                      "ruleOut": false,
+                      "modifierValues": [
+                        {
+                          "name": "Time",
+                          "likelihood": 20,
+                          "scale": {
+                            "timeFrame": "Less than 1 Week"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "symptomID": "SYMPT0003935",
+                  "rows": [
+                    {
+                      "bias": true,
+                      "medNecessary": false,
+                      "minDiagCriteria": false,
+                      "must": false,
+                      "ruleOut": false,
+                      "likelihood": 40
+                    }
+                  ]
+                },
+                {
+                  "symptomID": "SYMPT0000010",
+                  "rows": [
+                    {
+                      "bias": true,
+                      "medNecessary": false,
+                      "minDiagCriteria": false,
+                      "must": false,
+                      "ruleOut": false,
+                      "modifierValues": [
+                        {
+                          "name": "Time",
+                          "likelihood": 20,
+                          "scale": {
+                          
+                            "timeFrame": "1-3 Weeks"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "symptomID": "SYMPT0004302",
+                  "rows": [
+                    {
+                      "bias": true,
+                      "medNecessary": false,
+                      "minDiagCriteria": false,
+                      "must": false,
+                      "ruleOut": false,
+                      "likelihood": 40,
+                      "multiplier": [
+                        "Counseling"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "symptomID": "SYMPT0004321",
+                  "rows": [
+                    {
+                      "bias": true,
+                      "medNecessary": false,
+                      "minDiagCriteria": false,
+                      "must": false,
+                      "ruleOut": false,
+                      "likelihood": 40
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "userID": 1
+    }
+  ]
+}

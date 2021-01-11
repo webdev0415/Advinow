@@ -1,0 +1,275 @@
+[2021-01-08_12:22:20.599][INFO][StartupInfoLogger.java:55]- Starting MICAApplication on DESKTOP-66HJ7B8 with PID 130180 (F:\ongoing\advinow\mica-neo4j-java-services\target\classes started by Loyalsun in F:\ongoing\advinow\mica-neo4j-java-services)
+[2021-01-08_12:22:20.605][INFO][SpringApplication.java:651]- No active profile set, falling back to default profiles: default
+[2021-01-08_12:22:25.976][INFO][RepositoryConfigurationDelegate.java:127]- Bootstrapping Spring Data Neo4j repositories in DEFAULT mode.
+[2021-01-08_12:22:27.130][INFO][RepositoryConfigurationDelegate.java:187]- Finished Spring Data repository scanning in 1036ms. Found 42 Neo4j repository interfaces.
+[2021-01-08_12:22:33.774][INFO][TomcatWebServer.java:108]- Tomcat initialized with port(s): 8080 (http)
+[2021-01-08_12:22:35.778][INFO][ServletWebServerApplicationContext.java:285]- Root WebApplicationContext: initialization completed in 14869 ms
+[2021-01-08_12:22:42.067][INFO][DomainInfo.java:198]- Starting Post-processing phase
+[2021-01-08_12:22:42.068][INFO][DomainInfo.java:152]- Building byLabel lookup maps
+[2021-01-08_12:22:42.070][INFO][DomainInfo.java:179]- Building interface class map for 301 classes
+[2021-01-08_12:22:42.184][INFO][DomainInfo.java:255]- Post-processing complete
+[2021-01-08_12:22:42.679][INFO][Neo4jMappingContext.java:193]- No class information found in OGM meta-data for class java.util.Hashtable so treating as simple type for SD Commons
+[2021-01-08_12:22:42.958][INFO][Neo4jMappingContext.java:92]- Neo4jMappingContext initialisation completed
+[2021-01-08_12:22:50.078][INFO][EndpointLinksResolver.java:58]- Exposing 2 endpoint(s) beneath base path '/actuator'
+[2021-01-08_12:22:53.175][INFO][TomcatWebServer.java:220]- Tomcat started on port(s): 8080 (http) with context path ''
+[2021-01-08_12:22:56.004][INFO][StartupInfoLogger.java:61]- Started MICAApplication in 38.011 seconds (JVM running for 43.859)
+[2021-01-08_12:24:36.403][INFO][StartupInfoLogger.java:55]- Starting MICAApplication on DESKTOP-66HJ7B8 with PID 133436 (F:\ongoing\advinow\mica-neo4j-java-services\target\classes started by Loyalsun in F:\ongoing\advinow\mica-neo4j-java-services)
+[2021-01-08_12:24:36.414][INFO][SpringApplication.java:651]- No active profile set, falling back to default profiles: default
+[2021-01-08_12:24:40.425][INFO][RepositoryConfigurationDelegate.java:127]- Bootstrapping Spring Data Neo4j repositories in DEFAULT mode.
+[2021-01-08_12:24:41.109][INFO][RepositoryConfigurationDelegate.java:187]- Finished Spring Data repository scanning in 669ms. Found 42 Neo4j repository interfaces.
+[2021-01-08_12:24:43.746][INFO][TomcatWebServer.java:108]- Tomcat initialized with port(s): 8080 (http)
+[2021-01-08_12:24:44.051][INFO][ServletWebServerApplicationContext.java:285]- Root WebApplicationContext: initialization completed in 7331 ms
+[2021-01-08_12:24:46.480][INFO][DomainInfo.java:198]- Starting Post-processing phase
+[2021-01-08_12:24:46.481][INFO][DomainInfo.java:152]- Building byLabel lookup maps
+[2021-01-08_12:24:46.482][INFO][DomainInfo.java:179]- Building interface class map for 301 classes
+[2021-01-08_12:24:46.548][INFO][DomainInfo.java:255]- Post-processing complete
+[2021-01-08_12:24:46.843][INFO][Neo4jMappingContext.java:193]- No class information found in OGM meta-data for class java.util.Hashtable so treating as simple type for SD Commons
+[2021-01-08_12:24:47.033][INFO][Neo4jMappingContext.java:92]- Neo4jMappingContext initialisation completed
+[2021-01-08_12:24:51.515][INFO][EndpointLinksResolver.java:58]- Exposing 2 endpoint(s) beneath base path '/actuator'
+[2021-01-08_12:24:53.736][INFO][TomcatWebServer.java:220]- Tomcat started on port(s): 8080 (http) with context path ''
+[2021-01-08_12:24:55.731][INFO][StartupInfoLogger.java:61]- Started MICAApplication in 20.672 seconds (JVM running for 25.561)
+[2021-01-08_12:42:22.483][INFO][FrameworkServlet.java:525]- Initializing Servlet 'dispatcherServlet'
+[2021-01-08_12:42:22.540][INFO][FrameworkServlet.java:547]- Completed initialization in 56 ms
+[2021-01-08_12:42:22.596][WARN][DispatcherServlet.java:1251]- No mapping for GET /
+[2021-01-08_12:42:24.197][WARN][DispatcherServlet.java:1251]- No mapping for GET /favicon.ico
+[2021-01-08_12:48:27.796][WARN][DispatcherServlet.java:1251]- No mapping for GET /swagger2-demo/swagger-ui.html
+[2021-01-08_12:52:52.151][INFO][StartupInfoLogger.java:55]- Starting MICAApplication on DESKTOP-66HJ7B8 with PID 139172 (F:\ongoing\advinow\mica-neo4j-java-services\target\classes started by Loyalsun in F:\ongoing\advinow\mica-neo4j-java-services)
+[2021-01-08_12:52:52.157][INFO][SpringApplication.java:651]- No active profile set, falling back to default profiles: default
+[2021-01-08_12:52:56.197][INFO][RepositoryConfigurationDelegate.java:127]- Bootstrapping Spring Data Neo4j repositories in DEFAULT mode.
+[2021-01-08_12:52:56.798][INFO][RepositoryConfigurationDelegate.java:187]- Finished Spring Data repository scanning in 584ms. Found 42 Neo4j repository interfaces.
+[2021-01-08_12:52:59.568][INFO][TomcatWebServer.java:108]- Tomcat initialized with port(s): 8080 (http)
+[2021-01-08_12:52:59.836][INFO][ServletWebServerApplicationContext.java:285]- Root WebApplicationContext: initialization completed in 7443 ms
+[2021-01-08_12:53:02.589][INFO][DomainInfo.java:198]- Starting Post-processing phase
+[2021-01-08_12:53:02.590][INFO][DomainInfo.java:152]- Building byLabel lookup maps
+[2021-01-08_12:53:02.592][INFO][DomainInfo.java:179]- Building interface class map for 301 classes
+[2021-01-08_12:53:02.669][INFO][DomainInfo.java:255]- Post-processing complete
+[2021-01-08_12:53:03.071][INFO][Neo4jMappingContext.java:193]- No class information found in OGM meta-data for class java.util.Hashtable so treating as simple type for SD Commons
+[2021-01-08_12:53:03.294][INFO][Neo4jMappingContext.java:92]- Neo4jMappingContext initialisation completed
+[2021-01-08_12:53:08.678][INFO][EndpointLinksResolver.java:58]- Exposing 2 endpoint(s) beneath base path '/actuator'
+[2021-01-08_12:53:10.597][INFO][TomcatWebServer.java:220]- Tomcat started on port(s): 8080 (http) with context path ''
+[2021-01-08_12:53:12.609][INFO][StartupInfoLogger.java:61]- Started MICAApplication in 21.699 seconds (JVM running for 26.395)
+[2021-01-08_14:08:20.783][INFO][FrameworkServlet.java:525]- Initializing Servlet 'dispatcherServlet'
+[2021-01-08_14:08:21.018][INFO][FrameworkServlet.java:547]- Completed initialization in 231 ms
+[2021-01-08_14:08:26.042][ERROR][MICAExceptionHandler.java:54]- Could not create driver instance; nested exception is org.neo4j.ogm.exception.ConnectionException: Could not create driver instance
+org.springframework.dao.DataAccessResourceFailureException: Could not create driver instance; nested exception is org.neo4j.ogm.exception.ConnectionException: Could not create driver instance
+	at org.springframework.data.neo4j.transaction.SessionFactoryUtils.convertOgmAccessException(SessionFactoryUtils.java:134)
+	at org.springframework.data.neo4j.repository.support.Neo4jPersistenceExceptionTranslator.translateExceptionIfPossible(Neo4jPersistenceExceptionTranslator.java:31)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:154)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy148.findPolicies(Unknown Source)
+	at com.advinow.mica.services.impl.TreatmentPolicyServiceImpl.getPolicies(TreatmentPolicyServiceImpl.java:47)
+	at com.advinow.mica.services.impl.TreatmentPolicyServiceImpl$$FastClassBySpringCGLIB$$18e8dac2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at io.github.resilience4j.retry.Retry.lambda$decorateCheckedSupplier$3f69f149$1(Retry.java:137)
+	at io.github.resilience4j.retry.Retry.executeCheckedSupplier(Retry.java:419)
+	at io.github.resilience4j.retry.configure.RetryAspect.handleDefaultJoinPoint(RetryAspect.java:180)
+	at io.github.resilience4j.retry.configure.RetryAspect.proceed(RetryAspect.java:137)
+	at io.github.resilience4j.retry.configure.RetryAspect.retryAroundAdvice(RetryAspect.java:116)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.advinow.mica.services.impl.TreatmentPolicyServiceImpl$$EnhancerBySpringCGLIB$$1d1ce04e.getPolicies(<generated>)
+	at com.advinow.mica.controller.PolicyController.getPolicies(PolicyController.java:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.advinow.mica.MICACORSFilter.doFilter(MICACORSFilter.java:46)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: org.neo4j.ogm.exception.ConnectionException: Could not create driver instance
+	at org.neo4j.ogm.drivers.bolt.driver.BoltDriver.initializeDriver(BoltDriver.java:173)
+	at org.neo4j.ogm.drivers.bolt.driver.BoltDriver.checkDriverInitialized(BoltDriver.java:138)
+	at org.neo4j.ogm.drivers.bolt.driver.BoltDriver.lambda$null$0(BoltDriver.java:124)
+	at org.neo4j.ogm.session.transaction.DefaultTransactionManager.openTransaction(DefaultTransactionManager.java:75)
+	at org.neo4j.ogm.session.Neo4jSession.beginTransaction(Neo4jSession.java:536)
+	at org.neo4j.ogm.session.Neo4jSession.doInTransaction(Neo4jSession.java:586)
+	at org.neo4j.ogm.session.Neo4jSession.doInTransaction(Neo4jSession.java:564)
+	at org.neo4j.ogm.session.delegates.ExecuteQueriesDelegate.executeAndMap(ExecuteQueriesDelegate.java:150)
+	at org.neo4j.ogm.session.delegates.ExecuteQueriesDelegate.query(ExecuteQueriesDelegate.java:117)
+	at org.neo4j.ogm.session.Neo4jSession.query(Neo4jSession.java:425)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282)
+	at org.springframework.data.neo4j.transaction.SharedSessionCreator$SharedSessionInvocationHandler.lambda$invoke$1(SharedSessionCreator.java:121)
+	at org.springframework.data.neo4j.transaction.SharedSessionCreator$SharedSessionInvocationHandler.invokeInTransaction(SharedSessionCreator.java:159)
+	at org.springframework.data.neo4j.transaction.SharedSessionCreator$SharedSessionInvocationHandler.invoke(SharedSessionCreator.java:123)
+	at com.sun.proxy.$Proxy124.query(Unknown Source)
+	at org.springframework.data.neo4j.repository.query.GraphQueryExecution$CollectionExecution.execute(GraphQueryExecution.java:97)
+	at org.springframework.data.neo4j.repository.query.GraphRepositoryQuery.doExecute(GraphRepositoryQuery.java:76)
+	at org.springframework.data.neo4j.repository.query.AbstractGraphRepositoryQuery.execute(AbstractGraphRepositoryQuery.java:57)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor$QueryMethodInvoker.invoke(QueryExecutorMethodInterceptor.java:195)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:152)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:130)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:367)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	... 81 common frames omitted
+Caused by: org.neo4j.driver.exceptions.ServiceUnavailableException: Unable to connect to database management service, ensure the database is running and that there is a working network connection to it.
+	at org.neo4j.driver.internal.util.Futures.blockingGet(Futures.java:143)
+	at org.neo4j.driver.internal.util.Futures.blockingGet(Futures.java:113)
+	at org.neo4j.driver.internal.InternalDriver.verifyConnectivity(InternalDriver.java:159)
+	at org.neo4j.ogm.drivers.bolt.driver.BoltDriver.initializeDriver(BoltDriver.java:170)
+	... 110 common frames omitted
+	Suppressed: org.neo4j.driver.internal.util.ErrorUtil$InternalExceptionCause: null
+		at org.neo4j.driver.internal.cluster.loadbalancing.LoadBalancer.lambda$verifyConnectivity$3(LoadBalancer.java:113)
+		at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:930)
+		at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:907)
+		at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+		at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2152)
+		at org.neo4j.driver.internal.util.Futures.lambda$asCompletionStage$0(Futures.java:97)
+		at org.neo4j.driver.internal.shaded.io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:577)
+		at org.neo4j.driver.internal.shaded.io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:551)
+		at org.neo4j.driver.internal.shaded.io.netty.util.concurrent.DefaultPromise.access$200(DefaultPromise.java:35)
+		at org.neo4j.driver.internal.shaded.io.netty.util.concurrent.DefaultPromise$1.run(DefaultPromise.java:501)
+		at org.neo4j.driver.internal.shaded.io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+		at org.neo4j.driver.internal.shaded.io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+		at org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+		at org.neo4j.driver.internal.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+		at org.neo4j.driver.internal.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at org.neo4j.driver.internal.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		... 1 common frames omitted
+Caused by: org.neo4j.driver.exceptions.ServiceUnavailableException: Failed to perform multi-databases feature detection with the following servers: [localhost(127.0.0.1):7687, localhost(0:0:0:0:0:0:0:1):7687]
+	at org.neo4j.driver.internal.cluster.loadbalancing.LoadBalancer.supportsMultiDb(LoadBalancer.java:143)
+	at org.neo4j.driver.internal.cluster.loadbalancing.LoadBalancer.verifyConnectivity(LoadBalancer.java:107)
+	at org.neo4j.driver.internal.SessionFactoryImpl.verifyConnectivity(SessionFactoryImpl.java:73)
+	at org.neo4j.driver.internal.InternalDriver.verifyConnectivityAsync(InternalDriver.java:141)
+	... 112 common frames omitted
+	Suppressed: org.neo4j.driver.exceptions.ServiceUnavailableException: Unable to connect to localhost(127.0.0.1):7687, ensure the database is running and that there is a working network connection to it.
+		at org.neo4j.driver.internal.async.connection.ChannelConnectedListener.databaseUnavailableError(ChannelConnectedListener.java:76)
+		at org.neo4j.driver.internal.async.connection.ChannelConnectedListener.operationComplete(ChannelConnectedListener.java:70)
+		at org.neo4j.driver.internal.async.connection.ChannelConnectedListener.operationComplete(ChannelConnectedListener.java:37)
+		at org.neo4j.driver.internal.shaded.io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:577)
+		at org.neo4j.driver.internal.shaded.io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:570)
+		at org.neo4j.driver.internal.shaded.io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:549)
+		at org.neo4j.driver.internal.shaded.io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:490)
+		at org.neo4j.driver.internal.shaded.io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:615)
+		at org.neo4j.driver.internal.shaded.io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:608)
+		at org.neo4j.driver.internal.shaded.io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+		at org.neo4j.driver.internal.shaded.io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:321)
+		at org.neo4j.driver.internal.shaded.io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:337)
+		at org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:702)
+		at org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+		at org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+		at org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+		at org.neo4j.driver.internal.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+		at org.neo4j.driver.internal.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at org.neo4j.driver.internal.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		... 1 common frames omitted
+	Caused by: org.neo4j.driver.internal.shaded.io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:7687
+	Caused by: java.net.ConnectException: Connection refused: no further information
+		at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+		at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:660)
+		at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:875)
+		at org.neo4j.driver.internal.shaded.io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+		at org.neo4j.driver.internal.shaded.io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+		at org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:702)
+		at org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+		at org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+		at org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+		at org.neo4j.driver.internal.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+		at org.neo4j.driver.internal.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at org.neo4j.driver.internal.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+	Suppressed: org.neo4j.driver.exceptions.ServiceUnavailableException: Unable to connect to localhost(127.0.0.1):7687, ensure the database is running and that there is a working network connection to it.
+		at org.neo4j.driver.internal.async.connection.ChannelConnectedListener.databaseUnavailableError(ChannelConnectedListener.java:76)
+		at org.neo4j.driver.internal.async.connection.ChannelConnectedListener.operationComplete(ChannelConnectedListener.java:70)
+		at org.neo4j.driver.internal.async.connection.ChannelConnectedListener.operationComplete(ChannelConnectedListener.java:37)
+		at org.neo4j.driver.internal.shaded.io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:577)
+		at org.neo4j.driver.internal.shaded.io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:570)
+		at org.neo4j.driver.internal.shaded.io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:549)
+		at org.neo4j.driver.internal.shaded.io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:490)
+		at org.neo4j.driver.internal.shaded.io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:615)
+		at org.neo4j.driver.internal.shaded.io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:608)
+		at org.neo4j.driver.internal.shaded.io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+		at org.neo4j.driver.internal.shaded.io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:321)
+		at org.neo4j.driver.internal.shaded.io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:337)
+		at org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:702)
+		at org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+		at org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+		at org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+		at org.neo4j.driver.internal.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+		at org.neo4j.driver.internal.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at org.neo4j.driver.internal.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		... 1 common frames omitted
+	Caused by: org.neo4j.driver.internal.shaded.io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:7687
+	Caused by: java.net.ConnectException: Connection refused: no further information
+		at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+		at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:660)
+		at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:875)
+		at org.neo4j.driver.internal.shaded.io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+		at org.neo4j.driver.internal.shaded.io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+		at org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:702)
+		at org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+		at org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+		at org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+		at org.neo4j.driver.internal.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+		at org.neo4j.driver.internal.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at org.neo4j.driver.internal.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+[2021-01-08_18:26:49.212][WARN][DispatcherServlet.java:1251]- No mapping for GET /favicon.ico
